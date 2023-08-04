@@ -2,8 +2,6 @@
 
 Contains the core modules for a Drupal 9 project
 
----
-
 ## installation
 
 ```
