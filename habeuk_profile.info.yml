@@ -1,7 +1,7 @@
 name: habeuk_profile
 type: profile
 description: "habeuk profile installation"
-core_version_requirement: "^9"
+core_version_requirement: ^9 || ^10
 
 # Ces modules ne peuvent etre desinstaller par l'utilisateur
 dependencies:
