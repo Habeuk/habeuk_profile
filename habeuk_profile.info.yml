@@ -24,7 +24,7 @@ install:
   - history
   - block
   - breakpoint
-  - ckeditor
+  - ckeditor5
   - config
   - comment
   - contextual
@@ -48,7 +48,6 @@ install:
   - toolbar
   - field_ui
   - file
-  - rdf
   - views
   - views_ui
   - tour
@@ -57,7 +56,6 @@ install:
   - transliterate_filenames
   #custom
   - statistics
-  - quickedit
   - admin_toolbar_tools
   - geolocation
   - field_formatter_class

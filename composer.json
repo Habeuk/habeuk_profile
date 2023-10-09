@@ -1,7 +1,7 @@
 {
   "name": "habeuk/habeuk_profile",
   "description": "profile habeuk",
-  "type": "drupal-profile",
+  "type": "drupal-custom-profile",
   "license": "MIT",
   "authors": [
     {
