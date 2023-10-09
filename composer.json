@@ -38,6 +38,7 @@
     "habeuk/apivuejs": "dev-1x|^1.0",
     "habeuk/filesmanager": "^1.0",
     "habeuk/blockscontent": "dev-1x|^1.0",
-    "drupal/transliterate_filenames": "^2.0"
+    "drupal/transliterate_filenames": "^2.0",
+    "habeuk/habeuk_utilitaire": "^1.0"
   }
 }
