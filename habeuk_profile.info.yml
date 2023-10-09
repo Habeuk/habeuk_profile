@@ -66,6 +66,7 @@ install:
   - fullswiperoptions
   - login_rx_vuejs
   - owlcarousel
+  - habeuk_utilitaire
 
 themes:
   - claro
