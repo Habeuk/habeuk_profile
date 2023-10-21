@@ -20,7 +20,6 @@
   "require": {
     "drupal/admin_toolbar": "^3.0",
     "drupal/geolocation": "^3.10",
-    "drupal/field_formatter_class": "^1.5",
     "drupal/paragraphs": "^1.14",
     "drupal/twig_vardumper": "^3.0",
     "habeuk/hot_models": "dev-1x|^1.0",
