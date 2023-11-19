@@ -40,5 +40,10 @@
     "drupal/transliterate_filenames": "^2.0",
     "habeuk/habeuk_utilitaire": "^1.0",
     "drush/drush": "^12"
+  },
+  "config": {
+    "allow-plugins": {
+      "cweagans/composer-patches": true
+    }
   }
 }
