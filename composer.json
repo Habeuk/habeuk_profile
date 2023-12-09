@@ -37,6 +37,7 @@
     "habeuk/blockscontent": "dev-1x|^1.0",
     "habeuk/habeuk_utilitaire": "^1.0",
     "habeuk/layoutgenentitystyles": "^2.0.1|dev-2x",
+    "habeuk/layout_custom_style": "^0.0.3",
     "stephane888/owlcarousel": "dev-1x",    
     "cweagans/composer-patches": "^1.7",    
     "drupal/transliterate_filenames": "^2.0",    

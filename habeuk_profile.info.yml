@@ -12,6 +12,7 @@ dependencies:
   - more_fields
   - apivuejs
   - filesmanager
+  - layout_custom_style
 
 distribution:
   name: "HABEUK template by habeuk.com"
