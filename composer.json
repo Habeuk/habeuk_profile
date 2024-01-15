@@ -38,7 +38,7 @@
     "habeuk/blockscontent": "dev-1x|^1.0",
     "drupal/transliterate_filenames": "^2.0",
     "habeuk/habeuk_utilitaire": "^1.0",
-    "drush/drush": "^12",
+    "drush/drush": "^11|^12",
     "habeuk/layoutgenentitystyles": "^2.1.0"
   },
   "config": {
