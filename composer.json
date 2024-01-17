@@ -41,7 +41,7 @@
     "stephane888/owlcarousel": "dev-1x|^1.1.3",    
     "cweagans/composer-patches": "^1.7",    
     "drupal/transliterate_filenames": "^2.0",    
-    "drupal/core-recommended": ">10.2.1",
+    "drupal/core-recommended": ">10.2.0",
     "drush/drush": "^12"    
   },
   "config": {
