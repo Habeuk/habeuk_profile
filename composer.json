@@ -33,7 +33,7 @@
     "habeuk/theme_reference_wbu": "dev-2x|^2.1.3",
     "habeuk/wb_universe": "^3.7.0|dev-3x",
     "cweagans/composer-patches": "^1.7",
-    "habeuk/more_fields": "dev-1x|^1.2.0",
+    "habeuk/more_fields": "dev-1x|^1.2.1",
     "habeuk/apivuejs": "dev-1x|^1.1.5",
     "habeuk/filesmanager": "dev-1x|^1.0.9",
     "habeuk/blockscontent": "dev-1x|^1.1.4",
