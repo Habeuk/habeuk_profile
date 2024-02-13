@@ -21,7 +21,7 @@
     "drupal/admin_toolbar": "^3.0",
     "drupal/geolocation": "^3.10",
     "drupal/paragraphs": "^1.14",
-    "drupal/pathauto": "^1.8",
+    "drupal/pathauto": "^1.12",
     "drupal/admin_toolbar": "^3.0",
     "drupal/twig_vardumper": "^3.0",
     "habeuk/hot_models": "dev-1x|^1.1.7",
