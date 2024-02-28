@@ -8,19 +8,15 @@ dependencies:
   - paragraphs
   - pathauto
   - formatage_models
-  - layoutgenentitystyles
-  - more_fields
-  - apivuejs
-  - filesmanager
-  - layout_custom_style
-
+  - layoutgenentitystyles  
 distribution:
-  name: "HABEUK template by habeuk.com"
+  name: "HABEUK template Drupal 10"
 #  langcode: fr # l'utilisateur doit pouvoir selectionner la langue.
 
 # Ces modules peuvent etre desinstaller par l'utilisateur.
+# ( les modules du profiles standard seront egalement installé )
 install:
-  #standard module
+  # core begin standard : D10.2.3
   - node
   - history
   - block
@@ -51,12 +47,14 @@ install:
   - file
   - views
   - views_ui
-  - tour
   - automated_cron
-  #contrib
-  - transliterate_filenames
-  #custom
+  - announcements_feed
+  #core begin standard : D10.2.3
   - statistics
+  - config_translation
+  ######## CONTRIB
+  - transliterate_filenames
+  ######## CUSTOM 
   - admin_toolbar_tools
   - geolocation
   - twig_vardumper
@@ -67,6 +65,10 @@ install:
   - login_rx_vuejs
   - owlcarousel
   - habeuk_utilitaire
+  - more_fields
+  - apivuejs
+  - filesmanager
+  - layout_custom_style
 
 themes:
   - claro

@@ -1,9 +1,24 @@
 <?php
+use Drupal\habeuk_profile\HabeukProfileApplyConfig;
 
 /**
+ *
  * @file
  * Install, update and uninstall hooks for the habeuk_profile install profile.
  */
+/**
+ * Trouver un moyen d'installer le profile parent.
+ * Cela semble pas logiquement possible. ( un site un profiele ).
+ */
+function _installation_profil_standard() {
+  /**
+   *
+   * @var \Drupal\Core\Extension\ModuleExtensionList $listProfile
+   */
+  $listProfile = \Drupal::service('extension.list.profile');
+  $profileStandard = $listProfile->get('standard');
+  dd($profileStandard);
+}
 
 /**
  * Implements hook_install().
@@ -13,18 +28,22 @@
  * @see system_install()
  */
 function habeuk_profile_install() {
-  // First, do everything that is done in the standard profile.
+  // HabeukProfileApplyConfig::ApplyConfigProfileStandard();
+  // Generation d'un theme
+  // HabeukProfileApplyConfig::CreationDuTheme();
+  // On appplique la fonction standard_install() du profile install.
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
 
-  /**
-   * On definie theme_reference_wbu comme theme par defaut.
-   * 
-   * @var \Drupal\Core\Config\ConfigFactoryInterface $configFactory
-   */
-  $configFactory = \Drupal::service('config.factory');
-  $editConfig = $configFactory->getEditable('system.theme');
-  $editConfig->set('default', 'theme_reference_wbu');
-  $editConfig->set('admin', 'claro');
-  $editConfig->save();
+/**
+ * On definie le theme par defaut et le theme d'administration..
+ *
+ * @var \Drupal\Core\Config\ConfigFactoryInterface $configFactory
+ */
+  // $configFactory = \Drupal::service('config.factory');
+  // $editConfig = $configFactory->getEditable('system.theme');
+  // $editConfig->set('default', 'wb_universe');
+  // $editConfig->set('admin', 'claro');
+  // $editConfig->save();
 }
+
