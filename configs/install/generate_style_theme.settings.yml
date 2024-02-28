@@ -1,0 +1,11 @@
+langcode: fr
+tab1:
+  theme_base: wb_universe
+  use_domain: 0
+  save_multifile: 0
+  build_mode: DevCMD
+  pwd_npm: /usr/local/bin/npm
+  vendor_import:
+    scss: ''
+    js: 'import "@stephane888/wbu-atomique/js/bootstrap/all.js";'
+    load_custom_in_vendor: 1

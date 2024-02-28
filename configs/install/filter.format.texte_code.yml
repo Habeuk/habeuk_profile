@@ -1,0 +1,7 @@
+langcode: fr
+status: true
+dependencies: {  }
+name: 'texte code'
+format: texte_code
+weight: 0
+filters: {  }
