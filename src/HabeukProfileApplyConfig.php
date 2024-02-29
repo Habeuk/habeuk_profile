@@ -33,10 +33,12 @@ class HabeukProfileApplyConfig {
     $values = [
       'run_npm' => 1,
       'id' => 1,
+      'settheme_as_defaut' => true,
       'hostname' => 'habeuk_theme'
     ];
     $entityTheme = ConfigThemeEntity::create($values);
     $entityTheme->save();
+    return $entityTheme->getHostname();
   }
   
 }

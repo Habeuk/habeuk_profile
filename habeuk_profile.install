@@ -17,20 +17,26 @@ use Drupal\habeuk_profile\HabeukProfileApplyConfig;
 function habeuk_profile_install() {
   HabeukProfileApplyConfig::ApplyConfigProfileStandard();
   // Generation d'un theme
-  // HabeukProfileApplyConfig::CreationDuTheme();
+  /**
+   *
+   * @var \Drupal\generate_style_theme\Entity\ConfigThemeEntity $entityTheme
+   */
+  $entityTheme = HabeukProfileApplyConfig::CreationDuTheme();
   // On appplique la fonction standard_install() du profile install.
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
-
-/**
- * On definie le theme par defaut et le theme d'administration..
- *
- * @var \Drupal\Core\Config\ConfigFactoryInterface $configFactory
- */
-  // $configFactory = \Drupal::service('config.factory');
-  // $editConfig = $configFactory->getEditable('system.theme');
-  // $editConfig->set('default', 'wb_universe');
-  // $editConfig->set('admin', 'claro');
-  // $editConfig->save();
+  
+  /**
+   * On definie le theme par defaut et le theme d'administration..
+   *
+   * @var \Drupal\Core\Config\ConfigFactoryInterface $configFactory
+   */
+  if ($entityTheme) {
+    $configFactory = \Drupal::service('config.factory');
+    $editConfig = $configFactory->getEditable('system.theme');
+    $editConfig->set('default', $entityTheme->getHostname());
+    $editConfig->set('admin', 'claro');
+    $editConfig->save();
+  }
 }
 
