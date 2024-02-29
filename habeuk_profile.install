@@ -28,9 +28,9 @@ function _installation_profil_standard() {
  * @see system_install()
  */
 function habeuk_profile_install() {
-  // HabeukProfileApplyConfig::ApplyConfigProfileStandard();
+  HabeukProfileApplyConfig::ApplyConfigProfileStandard();
   // Generation d'un theme
-  // HabeukProfileApplyConfig::CreationDuTheme();
+  HabeukProfileApplyConfig::CreationDuTheme();
   // On appplique la fonction standard_install() du profile install.
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
