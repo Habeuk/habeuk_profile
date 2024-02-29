@@ -38,7 +38,7 @@ class HabeukProfileApplyConfig {
     ];
     $entityTheme = ConfigThemeEntity::create($values);
     $entityTheme->save();
-    return $entityTheme->getHostname();
+    return $entityTheme;
   }
   
 }
