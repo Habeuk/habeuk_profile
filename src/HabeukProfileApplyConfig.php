@@ -76,7 +76,7 @@ class HabeukProfileApplyConfig {
           \Drupal::logger('habeuk_profile')->notice("Theme installé : $themename");
           return true;
         }
-        $message = "'une erreur durant l'installation'";
+        $message = "(une erreur durant l'installation)";
       }
       else {
         \Drupal::messenger()->addStatus("Le theme '$themename' est deja installé");
@@ -85,8 +85,8 @@ class HabeukProfileApplyConfig {
       }
     }
     else
-      $message = "'pas visible'";
-    \Drupal::logger('habeuk_profile')->warning("Vous devez installer le theme manuellement, erreur : $message : $themename");
+      $message = "(pas visible)";
+    \Drupal::logger('habeuk_profile')->warning("Vous devez installer le theme manuellement, erreur  : $themename : $message");
     return false;
   }
   
