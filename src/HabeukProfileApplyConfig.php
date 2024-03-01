@@ -38,7 +38,28 @@ class HabeukProfileApplyConfig {
     ];
     $entityTheme = ConfigThemeEntity::create($values);
     $entityTheme->save();
+    self::instaLLNewTheme($entityTheme->getHostname());
     return $entityTheme;
   }
   
+  /**
+   *
+   * @param string $themename
+   */
+  protected static function instaLLNewTheme($themename) {
+    /**
+     *
+     * @var \Drupal\Core\Extension\ThemeInstaller $themeInstaller
+     */
+    $themeInstaller = \Drupal::service("theme_installer");
+    $listThemesInstalled = $listThemesInstalled = \Drupal::config("core.extension")->get('theme');
+    if ($listThemesInstalled[$themename]) {
+      $theme_list = [
+        $themename => $themename
+      ];
+      $themeInstaller->install($theme_list);
+    }
+  }
+  
 }
+
