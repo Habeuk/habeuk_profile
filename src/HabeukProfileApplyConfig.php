@@ -53,11 +53,17 @@ class HabeukProfileApplyConfig {
      */
     $themeInstaller = \Drupal::service("theme_installer");
     $listThemesInstalled = $listThemesInstalled = \Drupal::config("core.extension")->get('theme');
-    if ($listThemesInstalled[$themename]) {
+    if (empty($listThemesInstalled[$themename])) {
       $theme_list = [
         $themename => $themename
       ];
-      $themeInstaller->install($theme_list);
+      if ($themeInstaller->install($theme_list))
+        \Drupal::messenger()->addStatus("Le theme '$themename' a été installé ");
+      else
+        \Drupal::messenger()->addError("Le theme '$themename' n'a pa pu etre installé ");
+    }
+    else {
+      \Drupal::messenger()->addStatus("Le theme '$themename' est deja installé");
     }
   }
   
