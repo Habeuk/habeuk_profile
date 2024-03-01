@@ -31,15 +31,17 @@ class HabeukProfileApplyConfig {
   
   public static function CreationDuTheme() {
     $values = [
-      'run_npm' => 1,
+      'run_npm' => 0,
       'id' => 1,
-      'settheme_as_defaut' => true,
+      'settheme_as_defaut' => false,
       'hostname' => 'habeuk_theme'
     ];
     $entityTheme = ConfigThemeEntity::create($values);
     $entityTheme->save();
-    self::instaLLNewTheme($entityTheme->getHostname());
-    return $entityTheme;
+    if (self::instaLLNewTheme($entityTheme->getHostname()))
+      return $entityTheme;
+    else
+      return false;
   }
   
   /**
@@ -54,6 +56,10 @@ class HabeukProfileApplyConfig {
     $ExtLitThemes = \Drupal::service('extension.list.theme');
     $ExtLitThemes->reset();
     $listThemeVisible = $ExtLitThemes->getList();
+    if (!empty($listThemeVisible['wb_universe']))
+      \Drupal::logger('habeuk_profile')->notice("wb_universe vue");
+    else
+      \Drupal::logger('habeuk_profile')->notice("wb_universe error vue");
     if (!empty($listThemeVisible[$themename])) {
       /**
        *
@@ -65,18 +71,23 @@ class HabeukProfileApplyConfig {
         $theme_list = [
           $themename => $themename
         ];
-        if ($themeInstaller->install($theme_list))
+        if ($themeInstaller->install($theme_list)) {
           \Drupal::messenger()->addStatus("Le theme '$themename' a été installé ");
-        else
-          \Drupal::messenger()->addError("Le theme '$themename' n'a pa pu etre installé ");
+          \Drupal::logger('habeuk_profile')->notice("Theme installé : $themename");
+          return true;
+        }
+        $message = "'une erreur durant l'installation'";
       }
       else {
         \Drupal::messenger()->addStatus("Le theme '$themename' est deja installé");
+        \Drupal::logger('habeuk_profile')->notice("Theme deja installé : $themename");
+        return true;
       }
     }
-    else {
-      \Drupal::messenger()->addStatus("Le theme '$themename' n'est pas vu par drupal ");
-    }
+    else
+      $message = "'pas visible'";
+    \Drupal::logger('habeuk_profile')->warning("Vous devez installer le theme manuellement, erreur : $message : $themename");
+    return false;
   }
   
 }
