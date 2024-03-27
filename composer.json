@@ -19,7 +19,7 @@
   "prefer-stable": true,
   "require": {
     "drupal/admin_toolbar": "^3.0",    
-    "drupal/core-recommended": ">10.2.4",
+    "drupal/core-recommended": "^10.2.4",
     "habeuk/habeuk_minimal_profile": "1.0.0",
     "drush/drush": "^12"    
   },
