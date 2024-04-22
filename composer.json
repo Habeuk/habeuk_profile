@@ -25,7 +25,8 @@
     "habeuk/habeuk_utilitaire": "dev-1x|^1.0.2",
     "habeuk/habeuk_minimal_profile": "^1.0.1",
     "cweagans/composer-patches": "^1.7", 
-    "drush/drush": "^12"    
+    "drush/drush": "^12",
+    "habeuk/login_rx_vuejs": "^2.3.3"    
   },
   "config": {
     "allow-plugins": {
