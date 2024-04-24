@@ -16,7 +16,7 @@ distribution:
 # Ces modules peuvent etre desinstaller par l'utilisateur.
 # ( les modules du profiles standard seront egalement installé )
 install:
-  # core begin standard : D10.2.3
+  # core begin standard : D10.2.5
   - node
   - history
   - block
@@ -49,7 +49,7 @@ install:
   - views_ui
   - automated_cron
   - announcements_feed
-  #core begin standard : D10.2.3
+  #core begin standard : D10.2.5
   - statistics
   - config_translation
   ######## CONTRIB
