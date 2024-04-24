@@ -68,6 +68,7 @@ install:
   - filesmanager
   - layout_custom_style
   - fast_models
+  - bestlayouts
 
 themes:
   - claro
