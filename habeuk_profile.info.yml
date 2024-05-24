@@ -56,7 +56,6 @@ install:
   
   ######## CUSTOM 
   - admin_toolbar_tools
-  - geolocation
   - twig_vardumper
   - hot_models
   - spaker_mod
