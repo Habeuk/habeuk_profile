@@ -55,6 +55,7 @@ install:
   ######## CONTRIB
   
   ######## CUSTOM 
+  - admin_toolbar
   - admin_toolbar_tools
   - twig_vardumper
   - hot_models
