@@ -1,0 +1,7 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: information-sur-la-boutique
+label: 'Information sur la boutique'
+description: ''
+locked: false

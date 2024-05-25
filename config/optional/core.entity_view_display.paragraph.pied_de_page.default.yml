@@ -1,0 +1,887 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pied_de_page.field_description
+    - field.field.paragraph.pied_de_page.field_reseaux
+    - field.field.paragraph.pied_de_page.field_titre
+    - field.field.paragraph.pied_de_page.field_titre_1
+    - field.field.paragraph.pied_de_page.field_titre_2
+    - field.field.paragraph.pied_de_page.field_titre_3
+    - paragraphs.paragraphs_type.pied_de_page
+    - system.menu.a-propos-de-nous
+    - system.menu.information-sur-la-boutique
+    - webform.webform.newsletter
+  module:
+    - formatage_models
+    - layout_builder
+    - more_fields
+    - system
+    - text
+    - webform
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: formatage_models_footer_gp
+        layout_settings:
+          label: ' Footer Gp.  ( formatage_models_footer_gp ) '
+          context_mapping: {  }
+          css: mb-0
+          region_css_entete: 'col-md-6 me-auto'
+          region_css_entete2: col-md-6
+          sf:
+            builder-form: true
+            info:
+              title: Contenu
+              loader: static
+            fields:
+              copyright:
+                text_html:
+                  label: Copyright
+                  value: 'Copyright SITENAME. All Rights Reserved'
+                  format: full_html
+              credits:
+                text_html:
+                  label: Credits
+                  value: "Provide by <a href='https://habeuk.com/' class='btn text-wbu-secondary px-1 '> Habeuk.com </a>"
+                  format: texte_code
+          region_css_logo: ''
+          region_css_compagny_info: ''
+          region_css_social_links: ''
+          region_css_link_1: ''
+          region_css_links_1: ''
+          region_css_link_2: ''
+          region_css_links_2: ''
+          region_css_link_3: ''
+          region_css_newletter_text: ''
+          region_css_newletter_form: ''
+          region_css_copyright: ''
+          region_css_credits: ''
+          load_clean_value: 0
+          save_by_domain: null
+          load_libray: false
+          container_wrapper:
+            bootstrap_styles:
+              background:
+                background_type: null
+              background_color:
+                class: null
+              background_media:
+                image:
+                  media_id: null
+                video:
+                  media_id: null
+                background_options:
+                  background_position: center
+                  background_repeat: no-repeat
+                  background_attachment: not_fixed
+                  background_size: cover
+              text_color:
+                class: null
+              text_alignment:
+                class: null
+              padding:
+                class: _none
+              padding_left:
+                class: _none
+              padding_top:
+                class: _none
+              padding_right:
+                class: _none
+              padding_bottom:
+                class: _none
+              margin:
+                class: _none
+              margin_left:
+                class: _none
+              margin_top:
+                class: _none
+              margin_right:
+                class: _none
+              margin_bottom:
+                class: _none
+              border:
+                border_style:
+                  class: null
+                border_width:
+                  class: _none
+                border_color:
+                  class: null
+                rounded_corners:
+                  class: _none
+                border_left_style:
+                  class: null
+                border_left_width:
+                  class: _none
+                border_left_color:
+                  class: null
+                border_top_style:
+                  class: null
+                border_top_width:
+                  class: _none
+                border_top_color:
+                  class: null
+                border_right_style:
+                  class: null
+                border_right_width:
+                  class: _none
+                border_right_color:
+                  class: null
+                border_bottom_style:
+                  class: null
+                border_bottom_width:
+                  class: _none
+                border_bottom_color:
+                  class: null
+                rounded_corner_top_left:
+                  class: _none
+                rounded_corner_top_right:
+                  class: _none
+                rounded_corner_bottom_left:
+                  class: _none
+                rounded_corner_bottom_right:
+                  class: _none
+              box_shadow:
+                class: null
+              scroll_effects:
+                class: null
+          id: formatage-models-footer-gp-7211--UX5_TA8AXGE
+          config_section:
+            type_container: container
+            container_class: ''
+            id: formatage-models-footer-gp-7211--UX5_TA8AXGE
+          cover_section:
+            active: 0
+            model: ''
+            opacity: ''
+            zindex: ''
+          aos_attributes:
+            logo:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            compagny_info:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            social_links:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            link_1:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            links_1:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            link_2:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            links_2:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            link_3:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            newletter_text:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            newletter_form:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            copyright:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+            credits:
+              data_aos: ''
+              data_aos_anchor_placement: ''
+              data_aos_duration: ''
+              data_aos_delay: ''
+              data_aos_ease: ''
+          region_tag_logo: ''
+          region_tag_compagny_info: ''
+          region_tag_social_links: ''
+          region_tag_link_1: ''
+          region_tag_links_1: ''
+          region_tag_link_2: ''
+          region_tag_links_2: ''
+          region_tag_link_3: ''
+          region_tag_newletter_text: ''
+          region_tag_newletter_form: ''
+          region_tag_copyright: ''
+          region_tag_credits: ''
+          default_class:
+            background_position:
+              class: ''
+              background:
+                '': 0
+                background--attached: 0
+                background--cover: 0
+                background--contain: 0
+            spaces:
+              class:
+                '': 0
+                space-bottom: 0
+                space-top-inv: 0
+                space-padding: 0
+                space-inner-padding: 0
+                space-inner-bottom: 0
+                space-inner-top: 0
+                padding-top: 0
+                margin-top: 0
+                padding-bottom: 0
+            border_radius:
+              class: ''
+            box_shadow:
+              class: ''
+            container_width:
+              class: ''
+            regions:
+              logo:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              compagny_info:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              social_links:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              link_1:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              links_1:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              link_2:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              links_2:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              link_3:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              newletter_text:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              newletter_form:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              copyright:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+              credits:
+                background_position:
+                  class: ''
+                  background:
+                    '': 0
+                    background--attached: 0
+                    background--cover: 0
+                    background--contain: 0
+                spaces:
+                  class:
+                    '': 0
+                    space-bottom: 0
+                    space-top-inv: 0
+                    space-padding: 0
+                    space-inner-padding: 0
+                    space-inner-bottom: 0
+                    space-inner-top: 0
+                    padding-top: 0
+                    margin-top: 0
+                    padding-bottom: 0
+                border_radius:
+                  class: ''
+                box_shadow:
+                  class: ''
+                container_width:
+                  class: ''
+          scss:
+            scss_field: ".fields-svg{\r\n  .field-svg .icon{\r\n    padding: 1rem;\r\n    svg{\r\n      width:20px;\r\n      height:20px;\r\n    }\r\n  }\r\n}"
+        components:
+          701d3953-53d8-4e56-8a5e-b1053564b217:
+            uuid: 701d3953-53d8-4e56-8a5e-b1053564b217
+            region: logo
+            configuration:
+              id: system_branding_block
+              label: 'Identité du site'
+              label_display: '0'
+              provider: system
+              context_mapping: {  }
+              use_site_logo: true
+              use_site_name: false
+              use_site_slogan: false
+            weight: 0
+            additional: {  }
+          62fc5a94-9269-414d-bd90-50192f9a96de:
+            uuid: 62fc5a94-9269-414d-bd90-50192f9a96de
+            region: compagny_info
+            configuration:
+              id: 'field_block:paragraph:pied_de_page:field_description'
+              label: 'Adresse compagny'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings:
+                  formatage_models:
+                    classes:
+                      container: ''
+                      title: ''
+                      value: ''
+                      item: ''
+            weight: 0
+            additional: {  }
+          b3cc4b8b-d38a-41f1-b553-c01bc089417a:
+            uuid: b3cc4b8b-d38a-41f1-b553-c01bc089417a
+            region: social_links
+            configuration:
+              id: 'field_block:paragraph:pied_de_page:field_reseaux'
+              label: Réseaux
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: more_fields_icon_text_formatter2
+                label: hidden
+                settings:
+                  layoutgenentitystyles_view: more_fields/field-icon-svg
+                  size: none
+                  bg: icon-bg-background
+                  custom_class_container: d-flex
+                  custom_class_sub_container: 'd-flex  border-0'
+                  custom_class_icon: 'text-dark me-2'
+                  custom_class_text: d-none
+                third_party_settings:
+                  formatage_models:
+                    classes:
+                      container: ''
+                      title: ''
+                      value: ''
+                      item: ''
+            weight: 0
+            additional: {  }
+          9e77e13d-0f22-4dff-97d5-b6cc1f733a19:
+            uuid: 9e77e13d-0f22-4dff-97d5-b6cc1f733a19
+            region: link_3
+            configuration:
+              id: 'field_block:paragraph:pied_de_page:field_titre_3'
+              label: 'Titre 3'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings:
+                  formatage_models:
+                    classes:
+                      container: ''
+                      title: ''
+                      value: ''
+                      item: ''
+            weight: 0
+            additional: {  }
+          d6c0b340-4df7-41db-a4a4-863c0a6428fc:
+            uuid: d6c0b340-4df7-41db-a4a4-863c0a6428fc
+            region: newletter_text
+            configuration:
+              id: 'field_block:paragraph:pied_de_page:field_titre'
+              label: 'Petite description newsletter'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings:
+                  formatage_models:
+                    classes:
+                      container: ''
+                      title: ''
+                      value: ''
+                      item: ''
+            weight: 0
+            additional: {  }
+          ec9df4f8-b6cd-49f7-952c-607f2579a78d:
+            uuid: ec9df4f8-b6cd-49f7-952c-607f2579a78d
+            region: link_2
+            configuration:
+              id: 'field_block:paragraph:pied_de_page:field_titre_1'
+              label: 'Titre 1'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings:
+                  formatage_models:
+                    classes:
+                      container: ''
+                      title: ''
+                      value: ''
+                      item: ''
+            weight: 1
+            additional: {  }
+          50b74889-f4b3-43ac-a006-c9745533674f:
+            uuid: 50b74889-f4b3-43ac-a006-c9745533674f
+            region: link_1
+            configuration:
+              id: 'field_block:paragraph:pied_de_page:field_titre_2'
+              label: 'Titre 2'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings:
+                  formatage_models:
+                    classes:
+                      container: ''
+                      title: ''
+                      value: ''
+                      item: ''
+            weight: 0
+            additional: {  }
+          f7311b79-2728-42de-89e3-ef7e76d0d575:
+            uuid: f7311b79-2728-42de-89e3-ef7e76d0d575
+            region: links_1
+            configuration:
+              id: 'system_menu_block:a-propos-de-nous'
+              label: 'A propos de nous'
+              label_display: '0'
+              provider: system
+              context_mapping: {  }
+              level: 1
+              depth: 0
+              expand_all_items: false
+            weight: 0
+            additional: {  }
+          76684c0e-b04a-4f43-80f2-4135344dcfd7:
+            uuid: 76684c0e-b04a-4f43-80f2-4135344dcfd7
+            region: links_2
+            configuration:
+              id: 'system_menu_block:information-sur-la-boutique'
+              label: 'Information sur la boutique'
+              label_display: '0'
+              provider: system
+              context_mapping: {  }
+              level: 1
+              depth: 0
+              expand_all_items: false
+            weight: 0
+            additional: {  }
+          c4b89e4c-d5b0-4d72-8bb3-5bf8eb5a4d18:
+            uuid: c4b89e4c-d5b0-4d72-8bb3-5bf8eb5a4d18
+            region: newletter_form
+            configuration:
+              id: webform_block
+              label: Webform
+              label_display: '0'
+              provider: webform
+              context_mapping: {  }
+              webform_id: newsletter
+              default_data: ''
+              redirect: false
+              lazy: false
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: paragraph.pied_de_page.default
+targetEntityType: paragraph
+bundle: pied_de_page
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      formatage_models:
+        classes:
+          container: ''
+          title: ''
+          value: 'h5 text-align-center'
+          item: ''
+    weight: 0
+    region: title
+  field_reseaux:
+    type: more_fields_icon_text_formatter2
+    label: hidden
+    settings:
+      layoutgenentitystyles_view: more_fields/field-icon-svg
+      size: none
+      bg: none
+      custom_class_container: d-flex
+      custom_class_sub_container: 'd-flex m-0'
+      custom_class_icon: ''
+      custom_class_text: d-none
+      variants_bg:
+        none: none
+        icon-bg-primary: icon-bg-primary
+        icon-bg-background: icon-bg-background
+        field-svg-square-background: field-svg-square-background
+        field-svg-square-primary: field-svg-square-primary
+      variants_size:
+        none: none
+        icon-small: icon-small
+        icon-big: icon-big
+    third_party_settings:
+      formatage_models:
+        classes:
+          container: ''
+          title: ''
+          value: ''
+          item: ''
+    weight: 1
+    region: title
+  field_titre:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      formatage_models:
+        classes:
+          container: ''
+          title: ''
+          value: 'h2 mb-4 text-align-center'
+          item: ''
+    weight: 2
+    region: title
+  field_titre_1:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: title
+  field_titre_2:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: title
+  field_titre_3:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 5
+    region: title
+hidden: {  }

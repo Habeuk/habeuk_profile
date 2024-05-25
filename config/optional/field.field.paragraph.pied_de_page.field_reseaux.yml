@@ -1,0 +1,20 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_reseaux
+    - paragraphs.paragraphs_type.pied_de_page
+  module:
+    - more_fields
+id: paragraph.pied_de_page.field_reseaux
+field_name: field_reseaux
+entity_type: paragraph
+bundle: pied_de_page
+label: Réseaux
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: more_fields_icon_text

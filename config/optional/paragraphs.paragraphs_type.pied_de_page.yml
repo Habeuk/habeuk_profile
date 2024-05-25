@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: pied_de_page
+label: 'Pied de page'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
