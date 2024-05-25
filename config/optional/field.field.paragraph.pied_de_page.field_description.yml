@@ -14,7 +14,10 @@ label: 'Adresse compagny'
 description: ''
 required: false
 translatable: false
-default_value: {  }
+default_value:
+  -
+    value: "<p>A108 Adam Street\r\n</p>\r\n\r\n<p>NY 535022, USA\r\n</p>\r\n\r\n<p>Tél : +237 694 900 622\r\n</p>\r\n\r\n<p>Email : contact@habeuk.com\r\n</p>\r\n"
+    format: texte_code
 default_value_callback: ''
 settings:
   allowed_formats: {  }
