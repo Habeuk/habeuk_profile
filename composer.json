@@ -22,7 +22,7 @@
     "drupal/core-recommended": "^10.2.5",
     "drupal/twig_vardumper": "^3.0",
     "habeuk/habeuk_utilitaire": "dev-1x|^1.0.2",
-    "habeuk/habeuk_minimal_profile": "^1.0.6",
+    "habeuk/habeuk_minimal_profile": "^1.0.8",
     "cweagans/composer-patches": "^1.7", 
     "drush/drush": "^12",
     "habeuk/bestlayouts": "^1.0.3|dev-1x",
