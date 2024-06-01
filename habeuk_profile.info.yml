@@ -61,7 +61,6 @@ install:
   - hot_models
   - spaker_mod
   - fullswiperoptions
-  - login_rx_vuejs
   - habeuk_utilitaire
   - more_fields
   - apivuejs
