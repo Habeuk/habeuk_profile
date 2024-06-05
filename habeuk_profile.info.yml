@@ -2,15 +2,15 @@ name: habeuk_profile
 type: profile
 description: "habeuk profile"
 core_version_requirement: ^10
-
 # Ces modules ne peuvent etre desinstaller par l'utilisateur
 dependencies:
   - paragraphs
   - pathauto
   - formatage_models
   - layoutgenentitystyles  
+# Cette definition permet de selectionner le profil par defaut.
 distribution:
-  name: "HABEUK template Drupal 10"
+  name: "Drupal 10 by habeuk.com"
 #  langcode: fr # l'utilisateur doit pouvoir selectionner la langue.
 
 # Ces modules peuvent etre desinstaller par l'utilisateur.
@@ -49,7 +49,7 @@ install:
   - views_ui
   - automated_cron
   - announcements_feed
-  #core begin standard : D10.2.5
+  #core end standard : D10.2.5
   - statistics
   - config_translation
   ######## CONTRIB

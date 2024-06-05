@@ -31,13 +31,13 @@ function habeuk_profile_install() {
    *
    * @var \Drupal\Core\Config\ConfigFactoryInterface $configFactory
    */
-  if ($entityTheme) {
-    $configFactory = \Drupal::service('config.factory');
-    $editConfig = $configFactory->getEditable('system.theme');
+  
+  $configFactory = \Drupal::service('config.factory');
+  $editConfig = $configFactory->getEditable('system.theme');
+  if ($entityTheme)
     $editConfig->set('default', $entityTheme->getHostname());
-    $editConfig->set('admin', 'claro');
-    $editConfig->save();
-  }
+  $editConfig->set('admin', 'claro');
+  $editConfig->save();
 }
 
 
