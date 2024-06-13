@@ -1,0 +1,52 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.footers
+    - field.storage.block_content.field_paragraphs
+  module:
+    - entity_reference_revisions
+id: block_content.footers.field_paragraphs
+field_name: field_paragraphs
+entity_type: block_content
+bundle: footers
+label: Paragraphs
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      entete_du_site_menu_top_header:
+        weight: 2
+        enabled: false
+      pied_de_page:
+        weight: 11
+        enabled: false
+      presentation:
+        weight: 12
+        enabled: false
+      presentation_livre:
+        weight: 13
+        enabled: false
+      section_presentatrice:
+        weight: 17
+        enabled: false
+      sections_4_blocks:
+        weight: 14
+        enabled: false
+      sections_categories:
+        weight: 15
+        enabled: false
+      sections_products:
+        weight: 16
+        enabled: false
+      slider:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions
