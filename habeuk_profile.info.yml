@@ -54,6 +54,7 @@ install:
   - config_translation
   ######## CONTRIB
   - phone_international
+  - webform
   ######## CUSTOM 
   - admin_toolbar
   - admin_toolbar_tools
