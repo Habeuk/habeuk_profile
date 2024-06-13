@@ -1,0 +1,20 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.section_presentatrice
+id: paragraph.section_presentatrice.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: section_presentatrice
+label: Titre
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Habeuk, conception App et site e-commerce '
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -53,7 +53,7 @@ install:
   - statistics
   - config_translation
   ######## CONTRIB
-  
+  - phone_international
   ######## CUSTOM 
   - admin_toolbar
   - admin_toolbar_tools
