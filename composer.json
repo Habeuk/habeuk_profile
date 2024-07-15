@@ -24,10 +24,10 @@
     "drupal/phone_international": "^3.3",
     "drupal/webform": "^6.2",
     "habeuk/habeuk_utilitaire": "dev-1x|^1.0.2",
-    "habeuk/habeuk_minimal_profile": "^1.2.0",
+    "habeuk/habeuk_minimal_profile": "^1.2.1",
     "cweagans/composer-patches": "^1.7", 
     "drush/drush": "^12",
-    "habeuk/bestlayouts": "^1.0.3|dev-1x",
+    "habeuk/bestlayouts": "^1.0.6|dev-1x",
     "habeuk/drupal_utility": "^1.0.0|dev-1x"    
   },
   "config": {

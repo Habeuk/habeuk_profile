@@ -55,6 +55,8 @@ install:
   ######## CONTRIB
   - phone_international
   - webform
+  - metatag
+  - metatag_open_graph
   ######## CUSTOM 
   - admin_toolbar
   - admin_toolbar_tools
