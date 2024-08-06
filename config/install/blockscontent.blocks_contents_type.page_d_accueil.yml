@@ -1,0 +1,6 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: page_d_accueil
+label: "Pages d'accueil"
+description: 'Contient différent modèles de page d’accueil'
