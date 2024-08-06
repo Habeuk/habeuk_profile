@@ -29,7 +29,7 @@
     "drush/drush": "^12",
     "habeuk/bestlayouts": "^1.0.6|dev-1x",
     "habeuk/drupal_utility": "^1.0.0|dev-1x",
-    "habeuk/blockscontent": "^1.1.4|dev-1x"    
+    "habeuk/blockscontent": "^2.0.0|dev-2x"    
   },
   "config": {
     "allow-plugins": {
