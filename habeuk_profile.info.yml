@@ -57,6 +57,7 @@ install:
   - webform
   - metatag
   - metatag_open_graph
+  - better_exposed_filters
   ######## CUSTOM 
   - admin_toolbar
   - admin_toolbar_tools
@@ -72,6 +73,7 @@ install:
   - fast_models
   - bestlayouts
   - blockscontent
+  - mit_models
 
 themes:
   - claro
