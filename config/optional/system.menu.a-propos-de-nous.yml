@@ -1,7 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-id: a-propos-de-nous
-label: 'A propos de nous'
-description: ''
-locked: false

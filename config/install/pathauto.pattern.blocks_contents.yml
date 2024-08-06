@@ -1,0 +1,13 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - blockscontent
+id: blocks_contents
+label: "Blocks contents"
+type: "canonical_entities:blocks_contents"
+pattern: "[blocks_contents:name]"
+selection_criteria: {}
+selection_logic: and
+weight: 0
+relationships: {}
