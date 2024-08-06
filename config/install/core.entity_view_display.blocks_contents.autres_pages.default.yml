@@ -1,0 +1,25 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - blockscontent.blocks_contents_type.autres_pages
+  module:
+    - entity_reference_revisions
+id: blocks_contents.autres_pages.default
+targetEntityType: blocks_contents
+bundle: autres_pages
+mode: default
+content:
+  paragraph_revisions:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  name: true
+  user_id: true

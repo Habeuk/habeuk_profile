@@ -1,0 +1,6 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: autres_pages
+label: 'Autres pages'
+description: ''
