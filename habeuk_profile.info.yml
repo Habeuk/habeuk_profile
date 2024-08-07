@@ -74,6 +74,7 @@ install:
   - bestlayouts
   - blockscontent
   - mit_models
+  - vixcon
 
 themes:
   - claro

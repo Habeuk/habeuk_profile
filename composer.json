@@ -30,7 +30,8 @@
     "habeuk/bestlayouts": "^1.0.6|dev-1x",
     "habeuk/drupal_utility": "^1.0.0|dev-1x",
     "habeuk/blockscontent": "^2.0.0|dev-2x",
-    "habeuk/mit_models": "^1.1"    
+    "habeuk/mit_models": "^1.1.4",
+    "habeuk/vixcon": "^1.1.5"
   },
   "config": {
     "allow-plugins": {
