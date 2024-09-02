@@ -33,7 +33,8 @@
     "habeuk/mit_models": "^1.1.4",
     "habeuk/vixcon": "^1.1.5|dev-1x",
     "drupal/metatag": "^2.0",
-    "stephane888/fielditem_renderby_view": "^2.0"
+    "stephane888/fielditem_renderby_view": "^2.0",
+    "drupal/inline_entity_form": "^3.0@RC"
   },
   "config": {
     "allow-plugins": {
