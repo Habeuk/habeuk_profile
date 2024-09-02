@@ -58,6 +58,7 @@ install:
   - metatag
   - metatag_open_graph
   - better_exposed_filters
+  - inline_entity_form
   ######## CUSTOM 
   - admin_toolbar
   - admin_toolbar_tools
