@@ -32,7 +32,8 @@
     "habeuk/blockscontent": "^2.0.0|dev-2x",
     "habeuk/mit_models": "^1.1.4",
     "habeuk/vixcon": "^1.1.5|dev-1x",
-    "drupal/metatag": "^2.0"
+    "drupal/metatag": "^2.0",
+    "stephane888/fielditem_renderby_view": "^2.0"
   },
   "config": {
     "allow-plugins": {

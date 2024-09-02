@@ -75,6 +75,7 @@ install:
   - blockscontent
   - mit_models
   - vixcon
+  - fielditem_renderby_view
 
 themes:
   - claro
