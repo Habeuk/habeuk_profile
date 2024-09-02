@@ -52,6 +52,7 @@ install:
   #core end standard : D10.2.5
   - statistics
   - config_translation
+  - datetime
   ######## CONTRIB
   - phone_international
   - webform

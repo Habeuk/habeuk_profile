@@ -2,13 +2,13 @@ langcode: fr
 status: true
 dependencies:
   config:
-    - block_content.type.footer
-    - field.field.block_content.footer.field_paragraphs
+    - block_content.type.top_header
+    - field.field.block_content.top_header.field_paragraphs
   module:
     - inline_entity_form
-id: block_content.footer.default
+id: block_content.top_header.default
 targetEntityType: block_content
-bundle: footer
+bundle: top_header
 mode: default
 content:
   field_paragraphs:
