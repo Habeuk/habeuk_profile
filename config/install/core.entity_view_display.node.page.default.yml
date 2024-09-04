@@ -2,13 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.basic
-    - field.field.block_content.basic.body
+    - field.field.node.page.body
+    - node.type.page
   module:
     - text
-id: block_content.basic.default
-targetEntityType: block_content
-bundle: basic
+    - user
+id: node.page.default
+targetEntityType: node
+bundle: page
 mode: default
 content:
   body:
@@ -16,6 +17,9 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 100
+    region: content
+  links:
+    weight: 101
     region: content
 hidden: {  }

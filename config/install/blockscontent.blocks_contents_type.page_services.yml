@@ -1,6 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-id: page_services
-label: 'Pages services'
-description: ''

@@ -2,20 +2,23 @@ langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.basic
-    - field.field.block_content.basic.body
+    - comment.type.comment
+    - field.field.comment.comment.comment_body
   module:
     - text
-id: block_content.basic.default
-targetEntityType: block_content
-bundle: basic
+id: comment.comment.default
+targetEntityType: comment
+bundle: comment
 mode: default
 content:
-  body:
+  comment_body:
     type: text_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 0
+    region: content
+  links:
+    weight: 100
     region: content
 hidden: {  }

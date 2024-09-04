@@ -1,6 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-id: pages_blogs
-label: 'Pages blogs'
-description: ''

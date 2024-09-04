@@ -1,7 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-id: comments_blogs
-label: 'Comments blogs'
-target_entity_type_id: blocks_contents
-description: ''

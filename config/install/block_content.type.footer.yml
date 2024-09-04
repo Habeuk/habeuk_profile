@@ -1,7 +1,0 @@
-langcode: fr
-status: true
-dependencies: {  }
-id: footer
-label: Footer
-revision: false
-description: null
