@@ -53,6 +53,7 @@ install:
   - statistics
   - config_translation
   - datetime
+  - content_translation
   ######## CONTRIB
   - phone_international
   - webform
