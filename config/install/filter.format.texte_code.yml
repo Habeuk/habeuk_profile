@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jM8jKHYBhwIThNS7ey2BcbF9Gr-i_MPdHyMq8__QNL8
+name: 'texte code'
+format: texte_code
+weight: 0
+filters: {  }
