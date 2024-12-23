@@ -62,6 +62,7 @@ install:
   - better_exposed_filters
   - inline_entity_form
   - select2
+  - recaptcha_v3
   ######## CUSTOM 
   - admin_toolbar
   - admin_toolbar_tools
