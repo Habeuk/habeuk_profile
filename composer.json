@@ -35,7 +35,8 @@
     "drupal/metatag": "^2.0",
     "stephane888/fielditem_renderby_view": "^2.0.3",
     "drupal/inline_entity_form": "^3.0@RC",
-    "drupal/select2": "^1.15"
+    "drupal/select2": "^1.15",
+    "drupal/recaptcha_v3": "^2.0"
   },
   "config": {
     "allow-plugins": {
