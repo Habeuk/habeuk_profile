@@ -79,8 +79,6 @@ install:
   - fast_models
   - bestlayouts
   - blockscontent
-  - mit_models
-  - vixcon
   - fielditem_renderby_view
 
 themes:
